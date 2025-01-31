@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sp.app.mapper.DemoMapper">
+	<insert id="insertDemo1" parameterType="com.sp.app.model.Demo">
+		INSERT INTO demo1(id, name) VALUES (#{id}, #{name})
+	</insert>
+	
+	<insert id="insertDemo2" parameterType="com.sp.app.model.Demo">
+		INSERT INTO demo2(id, birth) VALUES (#{id}, #{birth})
+	</insert>
+	
+	<insert id="insertDemo3" parameterType="com.sp.app.model.Demo">
+		INSERT INTO demo3(id, tel) VALUES (#{id}, #{tel})
+	</insert>
+	
+	
+</mapper>
