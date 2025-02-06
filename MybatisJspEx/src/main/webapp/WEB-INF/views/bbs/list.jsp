@@ -56,7 +56,7 @@ function searchList() {
 
 <div class="body-container">
 	<div class="body-title">
-	    <h2><span>|</span> 게시판</h2>
+	    <h2><span>|</span> 자유게시판</h2>
 	</div>
 
 	<table class="table">
